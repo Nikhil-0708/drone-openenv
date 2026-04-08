@@ -1,0 +1,11 @@
+[project]
+name = "drone-openenv"
+version = "0.1.0"
+description = "Drone delivery reinforcement learning environment"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "numpy"
+]
