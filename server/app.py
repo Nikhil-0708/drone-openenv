@@ -17,3 +17,7 @@ def step(action: dict):
     move = action["move"]
 
     return env.step(move)
+
+@app.get("/state")
+def state():
+    return {"status": "running"}
