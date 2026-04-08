@@ -1,0 +1,13 @@
+name: drone-openenv
+
+version: 1.0
+
+description: Drone delivery reinforcement learning environment using OpenEnv API.
+
+entrypoint: server.app:app
+
+endpoints:
+  reset: POST /reset
+  step: POST /step
+
+framework: fastapi
